@@ -1,6 +1,6 @@
 {
     "name": "diepxuan/module-customer",
-    "description": "N/A",
+    "description": "Customer for Magento 2",
     "type": "magento2-module",
     "license": [
         "OSL-3.0",
@@ -9,7 +9,7 @@
     "config": {
         "sort-packages": true
     },
-    "version": "1.0.0",
+    "version": "1.0.1",
     "authors": [
         {
             "name": "Tran Ngoc Duc",
