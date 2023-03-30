@@ -1,0 +1,30 @@
+{
+    "name": "diepxuan/module-customer",
+    "description": "N/A",
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Tran Ngoc Duc",
+            "email": "ductn@diepxuan.com"
+        }
+    ],
+    "require": {
+        "magento/module-customer": "~100.0|~100.1|~100.2|~101.0|~102.0|~103.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Diepxuan\\Customer\\": ""
+        }
+    }
+}

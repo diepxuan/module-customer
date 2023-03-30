@@ -10,7 +10,6 @@ Features
 
 - Admin configuration for Disable and Enable customer login
 
-
 Installation
 ------------
 
@@ -18,6 +17,6 @@ The easiest way to install the extension is to use [Composer](https://getcompose
 
 Run the following commands:
 
-- ```$ composer require diepxuan/module-customer```
-- ```$ bin/magento module:enable Diepxuan_Customer```
-- ```$ bin/magento setup:upgrade && bin/magento setup:static-content:deploy```
+```$ composer require diepxuan/module-customer```
+```$ bin/magento module:enable Diepxuan_Customer```
+```$ bin/magento setup:upgrade && bin/magento setup:static-content:deploy```
